@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Minhajul Islam"
-  }
+  },
   "auth": {
     "token": "123456789",
     "refresh_token: "987654321"
