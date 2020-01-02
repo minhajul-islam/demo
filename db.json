@@ -2,17 +2,51 @@
   "profile": {
     "name": "Minhajul Islam"
   },
+  
   "auth": {
     "token": "123456789",
     "refresh_token": "re_123456789"
   },
-   "airlines": [
-     {"name": "Bangladesh airline",
+  
+  "airlines": [
+     {
+       "name": "Bangladesh airline",
        "fare": 4000,
-        "class":"Economy",
-         "from":"Dhaka",
-          "to":"sylhet
-     }
-]
-
+       "class":"Economy",
+       "from":"Dhaka",
+       "to":"sylhet",
+       "date":"12/08/2020"
+     },
+     {
+       "name": "Emirates bangladesh",
+       "fare": 4500,
+       "class":"Economy",
+       "from":"Dhaka",
+       "to":"sylhet",
+       "date":"19/08/2020"
+     },
+   ],
+  
+  "history":[
+    {
+      "service": "air",
+      "name": "Bangladesh airline",
+      "fare": 4000,
+      "cabin_or_seat": "A4",
+      "class":"Economy",
+      "from":"Dhaka",
+      "to":"sylhet",
+      "date":"12/08/2020"
+    },
+    {
+      "service": "bus",
+      "name": "Greenline",
+      "fare": 16000,
+      "cabin_or_seat": "A4",
+      "class":"Economy",
+      "from":"Dhaka",
+      "to":"sylhet",
+      "date":"12/08/2020"
+    }
+  ]
 }
